@@ -1,0 +1,129 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+html::-webkit-scrollbar{
+    width: 0.8rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: rgb(241, 241, 241);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(67, 67, 67);
+    height: 10rem;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    
+    padding: 1rem;
+}
+
+@media screen and (max-width:500px){
+    section .user img{
+        width: 9rem;
+        height: 9rem;
+        
+        border-radius: 1rem;
+        border: 0.3rem solid rgba(0, 0, 0, 0.115);
+        margin: 0rem;
+    }
+    .name li{
+        font-size: 2.3rem;
+    }
+    }
+
+section .user img{
+    max-width: 11rem;
+    max-height: 11rem;
+    
+    border-radius: 1rem;
+    border: 0.3rem solid rgba(0, 0, 0, 0.115);
+    margin: 0rem;
+}
+
+
+section .user .name{
+    padding-top: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container .icons {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: 0;
+    float:left;
+}
+
+.container .skillsIcon{
+    width: 1.6rem;
+    height: 1.5rem;
+}
+.container #javaIcon{
+    width: 2.8rem;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: rgb(244, 244, 244);
+    border: 3px solid rgba(0, 0, 0, 0.33);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+#about{
+    max-width: 40rem;
+    text-align:start;
+}
+#skills{
+    max-width: 34rem;
+    text-align:start;
+}
+
+#extra{
+    max-width: 34rem;
+    text-align:start;
+}
+
+#hobbies{
+    max-width: 34rem;
+    text-align:start;
+}
+#about .context{
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgba(143, 143, 143, 0.615);
+    text-align: center;
+    width: fit-content;
+    border: 3px solid rgb(247, 255, 226);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.contactIcons{
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+
+.lowContacts{
+    text-align: center;
+    position: relative;
+}
+#contextContacts {
+    text-decoration: none;
+}
+
+#email:hover{
+    color: red;
+}
